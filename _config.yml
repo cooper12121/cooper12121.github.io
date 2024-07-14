@@ -13,7 +13,7 @@ title_separator          : "-"
 name                     : &name "Qiang Gao"
 description              : &description "personal description"
 URL                      : "https://cooper12121.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : #"" # the subpath of your site, e.g. "/blog"
 repository               : "cooper12121/cooper12121.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -21,7 +21,7 @@ repository               : "cooper12121/cooper12121.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/person.png"
+  avatar           : "person.png"
   name             : "Qiang Gao (高强)"
   pronouns         : "he/his"  
   bio              : "Journey through life’s complexities with an open heart and a mind eager to explore the unknown."
