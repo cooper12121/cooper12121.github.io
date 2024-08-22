@@ -6,5 +6,6 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-[Download my CV (PDF)](../files/Qiang_Gao_CV.pdf)
+[CV](../files/Qiang_Gao_CV.pdf)
+[Research Proposal for PhD Period](../files/ResearchProposal_QiangGao.pdf)
 

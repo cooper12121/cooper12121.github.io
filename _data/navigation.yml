@@ -14,5 +14,5 @@ main:
     
   - title: "CV"
     url: /cv/
-    # url: /files/Qiang_Gao_resume.pdf
+    # the url here is the path to the page, not the file, stay same with .md files' permalink
   
