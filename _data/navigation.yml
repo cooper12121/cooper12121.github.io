@@ -13,6 +13,6 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    url: /_cv/
+    url: /cv/
     # url: /files/Qiang_Gao_resume.pdf
   
