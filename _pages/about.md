@@ -20,4 +20,10 @@ I am a master student at Wuhan University. My current research is focusing on th
 + **Gao, Qiang**, Zixiang Meng, Bobo Li, Jun Zhou, Fei Li, Chong Teng, and Donghong Ji. [Harvesting Events from Multiple Sources: Towards a Cross-Document Event Extraction Paradigm](https://arxiv.org/abs/2406.16021). arXiv preprint arXiv:2406.16021 (2024). (ACL2024 Findings)
 + Zixiang Meng, **Qiang Gao**, Di Guo, Yunlong Li, Bobo Li, Hao Fei, Shengqiong Wu, Fei Li, Chong Teng, and Donghong Ji. 2024. MMLSCU: A Dataset for Multi-modal Multi-domain Live Streaming Comment Understanding. In Proceedings of the ACM on Web Conference 2024 (WWW '24). Association for Computing Machinery, New York, NY, USA, 4395–4406. https://doi.org/10.1145/3589334.3645677
 
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcooper12121.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
