@@ -36,8 +36,6 @@ I am a master student at Wuhan University. My current research is focusing on th
 ----
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcooper12121.github.io&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
-<!-- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=hdTfeJbUCNsceJld8SLBtt-HWutLiN0kQy_cI8VgwSk&cl=ffffff&w=a"></script> -->
-<div style="width:300px; height:300px; overflow:hidden; margin: 0 auto;">
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=hdTfeJbUCNsceJld8SLBtt-HWutLiN0kQy_cI8VgwSk&cl=ffffff"></script>
-</div>
+
+<a href="https://clustrmaps.com/site/1c1jr"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=iBMmoGO-73d5V2ya69oP0Y_uu9zOkoqD3SwcFkvmRec&cl=ffffff" /></a>
 
