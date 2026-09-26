@@ -1,52 +1,41 @@
-# Academic Pages
+# Neo Gao — Research & Reverie
 
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
+Qiang Gao (Neo), AI Researcher at ByteDance since September 2026.
 
-Academic Pages is a Github Pages template for academic websites.
+## A small static site
 
-# Getting Started
+Only four editable website files. No framework, package manager, build step, backend, or API key.
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+- `index.html` — profile, publications, journey, art playground, hobbies, and company-grouped work.
+- `style.css` — layout, palette, responsive styles, and motion preferences.
+- `script.js` — particle animation, local generative drawing, and recent activity rendering.
+- `activity.json` — short updates, sorted automatically by date (latest eight shown).
 
-See more info at https://academicpages.github.io/
+`.nojekyll` serves the site directly on GitHub Pages. The old Jekyll template, Ruby/Node manifests, maps, and generated assets have been removed. Git history is preserved; the previous site backup is outside this repository.
 
-## Running Locally
+## Post a recent activity
 
-When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
+Add an object to `activity.json` (or edit that file directly on GitHub), then commit and push it:
 
-1. Clone the repository and made updates as detailed above.
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+```json
+{
+  "date": "2026-09-26",
+  "text": "Write a short update here.",
+  "url": "https://example.com/your-post",
+  "linkLabel": "Read the note ↗"
+}
+```
 
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
+Use an ISO date `YYYY-MM-DD`. `url` and `linkLabel` are optional. Separate objects with commas inside the outer array. Text is displayed safely as plain text. Dates are currently displayed at month precision; original milestone records use the first of their known month as a sorting key, not as an asserted exact start date. Publishing requires a repository commit/push; the site has no public editing form or database.
 
-# Maintenance
+## Preview and publish
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+Run `python3 -m http.server 4174` in this directory and open http://localhost:4174.
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+GitHub Pages: choose **Deploy from a branch**, branch `master`, folder `/ (root)`. No build command is needed. Optional Google Fonts have system-font fallbacks.
 
-## Bugfixes and enhancements
+## Content and interactions
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+Profile facts and publication links come from the supplied resume and previous personal website. The owner confirmed the ByteDance start month, researcher wording, hobbies (reading, hiking, tennis, cycling), and contact email: gaoqiang.nlp@gmail.com. Neo is the owner-approved English display name; Qiang Gao remains in the biography for publication attribution. Alibaba's final month is unspecified, so its dates remain June 2025–2026.
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
-
+The playground is a working local procedural drawing tool with phrase input, a randomness slider, preset inspiration, and PNG download. It makes no AI calls and uploads nothing. The two AI-art concept notes are ideas, not claimed completed projects. Animations respect reduced-motion settings and pause offscreen.
