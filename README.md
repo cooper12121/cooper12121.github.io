@@ -1,4 +1,4 @@
-# Neo Gao — Research & Reverie
+# Neo — Research & Reverie
 
 Qiang Gao (Neo), AI Researcher at ByteDance since September 2026.
 
